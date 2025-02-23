@@ -1,2 +1,2 @@
 # micro-frontend-root
-Projeto micro frontend- Roor
+Projeto micro frontend- Root
