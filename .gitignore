@@ -27,6 +27,7 @@ coverage
 .nyc_output
 
 # Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
 
 # Bower dependency directory (https://bower.io/)
@@ -47,6 +48,8 @@ web_modules/
 
 # TypeScript cache
 *.tsbuildinfo
+# TypeScript v1 declaration files
+typings/
 
 # Optional npm cache directory
 .npm
@@ -128,3 +131,19 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+# dotenv environment variables file
+.env
+
+# next.js build output
+.next
+dist
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
